@@ -73,3 +73,23 @@ footer {
 	padding-right: 40px;
 	opacity: 0.6;
 }
+
+/* Hyperlink */
+
+.textlink:link {
+	transition: 0.5s;
+	color: grey; 
+	background-color: transparent; 
+	text-decoration: none;
+}
+
+.textlink:visited {
+	color: grey;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.textlink:hover {
+	color: black;
+	background-color: transparent;
+}
