@@ -1,9 +1,13 @@
+body {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
 
 .researchintro {
 	font-family: 'Source Sans Pro', sans-serif;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	height: 380px;
 }
 
 .researchintro {
@@ -20,13 +24,14 @@
 	display: table;
 }
 
-
 footer {
 	background-color: #fff5d1;
 	width: 100%;
 	height: 30px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	bottom: 0;
+	position: absolute;
 }
 
 .icons {
