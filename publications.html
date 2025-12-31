@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications</title>
+
+  <meta name="description" content="Publications" />
+  <link rel="icon" type="image/png" href="imgs/icon.png" />
+
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="prism/prism.css" />
+
+  <style>
+    body { font-family: 'Helvetica', sans-serif; text-align: left; }
+
+    /* Accent color */
+    a, a:visited { color: #2E5090; }
+    a { text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Top row */
+    .page-top {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 0.6rem;
+    }
+
+    /* Match index.html "About" header inline style */
+    .page-title {
+      margin: 0;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 1.3;
+      text-align: left;
+    }
+
+    .top-links {
+      font-size: 14px;
+      line-height: 1.4;
+      white-space: nowrap;
+    }
+    .top-links a { font-weight: 550; }
+    .top-links .sep {
+      color: #2E5090;
+      margin: 0 8px;
+      font-weight: 550;
+    }
+
+    /* Notes */
+    .note {
+      font-size: 12px;
+      margin-top: 0.25rem;
+      margin-bottom: 0.75rem;
+      color: #777;
+      line-height: 1.35;
+    }
+
+    /* publications list */
+    .paper-list {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+    }
+
+    /* Force same sizing as index paragraphs */
+    .paper-list li {
+      margin: 0.9rem 0;
+      position: relative;
+      padding-left: 2.3rem; /* space for [n] */
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .paper-num-link {
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-weight: 550;
+      color: #2E5090; /* blue numbers */
+      text-decoration: none;
+    }
+    .paper-num-link:hover { text-decoration: underline; }
+
+    @media (max-width: 820px) {
+      .page-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
+      .top-links { white-space: normal; }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="page-top">
+    <h2 class="page-title">Publications</h2>
+
+    <nav class="top-links" aria-label="Site links">
+      <a href="index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="presentations.html">Presentations</a>
+      <span class="sep">/</span>
+      <a href="vitae/cv_shelat.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+    </nav>
+  </header>
+
+  <main>
+    <p class="note">
+      all pdfs accessible by clicking [#]<br>
+      equal contributions marked by asterisk
+    </p>
+
+    <!-- Newest at top; numbering is inverted (oldest is [1]) -->
+    <ol class="paper-list">
+      <li>
+        <a class="paper-num-link" href="publications/Marome%2C%20Shelat%2C%20Schooler%202025%20Conc%20Cog.pdf" target="_blank" rel="noopener noreferrer">[12]</a>
+        Marome, B.*, <strong>Shelat, S.*</strong>, &amp; Schooler, J. W. (2025). The phenomenology of encoding:
+        Experience sampling reveals thoughts associated with the retention of visual and verbal materials.
+        <em>Consciousness and Cognition</em>.
+      </li>
+
+      <li>
+        <a class="paper-num-link" href="publications/Shelat%20et%20al%202025%20SpaceCHI.pdf" target="_blank" rel="noopener noreferrer">[11]</a>
+        <strong>Shelat, S.</strong>, Homer, K. E., Karasinski, J. A., &amp; Marquez, J. J. (2025). Multidimensional usability
+        assessment in spaceflight analog missions.
+        <em>Human-Computer Interaction for Space Exploration, SpaceCHI 4.0</em>.
+      </li>
+
+      <li>
+        <a class="paper-num-link" href="publications/Shelat%20and%20Giesbrecht%202025%20ERB.pdf" target="_blank" rel="noopener noreferrer">[10]</a>
+        <strong>Shelat, S.</strong>, &amp; Giesbrecht, B. (2025). Perceptual decoupling in the sustained attention to response task
+        is likely: Comment on Bedi, Russell, &amp; Helton (2024).
+        <em>Experimental Brain Research</em>.
+      </li>
+
+      <li>
+        <a class="paper-num-link" href="publications/Garg%2C%20Shelat%2C%20Gross%20et%20al%202025%20Conc%20Cog.pdf" target="_blank" rel="noopener noreferrer">[9]</a>
+        Garg, A., <strong>Shelat, S.</strong>, Gross, M. E., Smallwood, J., Seli, P., Taxali, A., Sripada, C. S., &amp; Schooler, J. W. (2025).
+        Opening the black box: Think Aloud as a method to study the spontaneous stream of consciousness.
+        <em>Consciousness and Cognition</em>.
+      </li>
+
+      <li>
+        <a class="paper-num-link" href="publications/Karasinski%2C%20Shelat%2C%20Marquez%202025%20SciTech.pdf" target="_blank" rel="noopener noreferrer">[8]</a>
+        Karasinski, J. A., <strong>Shelat, S.</strong>, &amp; Marquez, J. J. (2025). Validation of self-scheduling countermeasures in NASA’s HERA Campaign 6.
+        <em>SciTech Forum</em>.
+      </li>
+
+      <li>
+        <a class="paper-num-link" href="publications/Garg%20et%20al%202025%20BMC.pdf" target="_blank" rel="noopener noreferrer">[7]</a>
+        Garg, A., <strong>Shelat, S.</strong>, &amp; Schooler, J. W. (2025). Now I feel like I’m going to get to it soon:
+        A brief, scalable intervention for state procrastination.
+        <em>BMC Psychology</em>.
+      </li>
+
+      <li>
+        <a class="paper-num-link" href="publications/Shelat%20et%20al%202024%20Applied%20Sci.pdf" target="_blank" rel="noopener noreferrer">[6]</a>
+        <strong>Shelat, S.</strong>, Marquez, J. J., Zheng, J., &amp; Karasinski, J. A. (2024). Collaborative system usability in spaceflight analog environments through remote observations.
+        <em>Applied Sciences</em>.
+      </li>
+
+      <li>
+        <a class="paper-num-link" href="publications/Shelat%20et%20al%202024%20Frontiers.pdf" target="_blank" rel="noopener noreferrer">[5]</a>
+        <strong>Shelat, S.</strong>, Schooler, J. W., &amp; Giesbrecht, B. (2024). Predicting attentional lapses using response time speed in continuous performance tasks.
+        <em>Frontiers in Cognition</em>.
+      </li>
+
+      <li>
+        <a class="paper-num-link" href="publications/Zheng%20et%20al%202023%20SpaceCHI.pdf" target="_blank" rel="noopener noreferrer">[4]</a>
+        Zheng, J., <strong>Shelat, S.</strong>, &amp; Marquez, J. J. (2023). Facilitating crew-computer collaboration during mixed-initiative space mission planning.
+        <em>Human-Computer Interaction for Space Exploration, SpaceCHI 3.0</em>.
+      </li>
+
+      <li>
+        <a class="paper-num-link" href="publications/Marquez%20et%20al%202022%20ASCEND.pdf" target="_blank" rel="noopener noreferrer">[3]</a>
+        Marquez, J. J., <strong>Shelat, S.</strong>, &amp; Karasinski, J. A. (2022). Promoting crew autonomy in a human spaceflight Earth analog mission through self-scheduling.
+        <em>Accelerating Space Commerce, Exploration, and New Discovery, ASCEND</em>.
+      </li>
+
+      <li>
+        <a class="paper-num-link" href="publications/Shelat%20et%20al%202022%20HCII.pdf" target="_blank" rel="noopener noreferrer">[2]</a>
+        <strong>Shelat, S.</strong>, Karasinski, J. A., Flynn-Evans, E. E., &amp; Marquez, J. J. (2022). Evaluation of user experience of self-scheduling software for astronauts: Defining a satisfaction baseline.
+        <em>Engineering Psychology and Cognitive Ergonomics, Lecture Notes in Computer Science</em>.
+      </li>
+
+      <li>
+        <a class="paper-num-link" href="publications/Young%20et%20al%202022%20Frontiers.pdf" target="_blank" rel="noopener noreferrer">[1]</a>
+        Young, A., Robbins, I., &amp; <strong>Shelat, S.</strong> (2022). From micro to macro: The combination of consciousness.
+        <em>Frontiers in Psychology</em>.
+      </li>
+    </ol>
+  </main>
+</body>
+</html>
